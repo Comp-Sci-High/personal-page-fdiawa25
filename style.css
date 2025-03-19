@@ -22,14 +22,14 @@ h1 {
 }
 
 h2 {
-    color: #5f1010;
+    color: #601010;
     border-bottom: 2px dashed #ec8c8c;
     padding-bottom: 5px;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 5px solid #FFB800;
+    border: 5px solid #bf2525;
     width: 200px;
     height: 200px; 
     object-fit: cover;
@@ -71,4 +71,54 @@ ul {
 p {
     color: #333;
     line-height: 1.6;
+}
+
+.food img{
+    border:3px solid rgb(148, 68, 68)
+}
+
+.movie img{
+    border:3px solid rgb(154, 119, 119)
+}
+
+.animal img{
+    border:3px solid rgb(123, 16, 16)
+}
+
+.book img{
+    border:3px solid rgb(61, 15, 15)
+}
+
+
+.fun-fact-box {
+
+    background-color: rgba(224, 168, 168, 0.8);
+    border-radius: 10px;
+    border: 6px solid rgb(172, 29, 29);
+    text-shadow: 1px 1px #fff;
+}
+
+.fun-fact-box h3{
+
+    color: #601010;
+   text-decoration: underline;
+   text-align: center;
+}
+
+.fun-fact-box p{
+
+    color: #000000;
+   text-align: center;
+   padding-bottom: 25px;
+}
+
+
+
+.fun-fact-box2 {
+ margin: 20px;
+    background-color: rgba(252, 252, 252, 0.8);
+    border-radius: 10px;
+    border: 6px solid rgb(172, 29, 29);
+    text-shadow: 1px 1px #fff;
+    text-align: center;
 }
